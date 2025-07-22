@@ -1,0 +1,14 @@
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\bin\Debug\net9.0\TestApp.exe
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\bin\Debug\net9.0\TestApp.deps.json
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\bin\Debug\net9.0\TestApp.runtimeconfig.json
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\bin\Debug\net9.0\TestApp.dll
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\bin\Debug\net9.0\TestApp.pdb
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\obj\Debug\net9.0\TestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\obj\Debug\net9.0\TestApp.AssemblyInfoInputs.cache
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\obj\Debug\net9.0\TestApp.AssemblyInfo.cs
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\obj\Debug\net9.0\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\obj\Debug\net9.0\TestApp.dll
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\obj\Debug\net9.0\refint\TestApp.dll
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\obj\Debug\net9.0\TestApp.pdb
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\obj\Debug\net9.0\TestApp.genruntimeconfig.cache
+C:\Users\gabel\Desktop\C++\Projects\C#Proj\TestApp\obj\Debug\net9.0\ref\TestApp.dll
