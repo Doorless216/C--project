@@ -2,23 +2,15 @@ using System;
 
 public class Song
 {
-    public string Title { get; set; }
     public string Artist { get; set; }
-    public double Length { get; set; }
+    public string Title { get; set; }
+    public TimeSpan Duration { get; set; }
 
-    public Song(string title, string artist, double length)
+    //constructor
+    public Song(string title, string artist, TimeSpan duration)
     {
-        Title = title;
         Artist = artist;
-        Length = length;
+        Title = title;
+        Duration = duration;
     }
-    public void Display()
-    {
-        Console.WriteLine(Title + " by " + Artist + " duration " + Length);
-        Console.WriteLine("SONG ADDED");
-
-
-    }
-
-
 }

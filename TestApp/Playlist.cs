@@ -1,26 +1,39 @@
-using System.Collections.Generic;
+using System;
 
 public class Playlist
 {
-    public List<Song> songs = new List<Song>();
-
-    public void addSong(Song song)
+    private List<Song> songs = new List<Song>();
+    public void AddSong(Song song)
     {
         songs.Add(song);
-        Console.WriteLine("SONG ADDED");
+        Console.WriteLine("Song Added!" + song.Title);
     }
-    public void viewSongs()
+    public void RemoveSong(string title)
+    {
+        Song songToRemove = songs.Find(s => string.Equals(s.Title, title, StringComparison.OrdinalIgnoreCase));
+        if (songToRemove != null)
+        {
+            songs.Remove(songToRemove);
+            Console.WriteLine("Removed -" + songToRemove.Title);
+        }
+        else
+        {
+            Console.WriteLine("Song not found!");
+        }
+    }
+
+    public void ShowSongs()
     {
         if (songs.Count == 0)
         {
-            Console.WriteLine("Playlist Empty");
+            Console.WriteLine("Playlist is empty!");
             return;
         }
-
-        Console.WriteLine("\n --- Your Playlist --- ");
         foreach (Song song in songs)
         {
-            song.Display();
+            Console.WriteLine(song.Title + " By " + song.Artist + " " + song.Duration);
         }
+
+
     }
 }
